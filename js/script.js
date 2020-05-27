@@ -11,13 +11,16 @@ for (var i = 1; i < 101; i++) {
   if (i % 3 == 0 && i % 5 == 0 ) {
     divTreCinque;
     numerazione = "FizzBuzz"
+    lista.innerHTML += "<li class= fizzbuzz>" + numerazione + "</li>"
   } else if (i % 3 == 0 ) {
     divTre;
     numerazione = "Fizz"
+    lista.innerHTML += "<li class= fizz>" + numerazione + "</li>"
   } else if (i % 5 == 0 ) {
     divCinque;
     numerazione = "Buzz"
+    lista.innerHTML += "<li class= buzz>" + numerazione + "</li>"
+  } else {
+    lista.innerHTML += "<li>" + numerazione + "</li>"
   }
-  // Scrivo il risultato nell'HTML
-lista.innerHTML += "<li>" + numerazione + "</li>"
 }

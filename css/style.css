@@ -1,6 +1,18 @@
 body {
-  background-color: red;
-  color: white;
+  background-color: #01161e;
+  color: #2a9d8f;
   font-weight: bold;
   text-align: center;
+}
+
+.fizzbuzz {
+  color: #e9c46a;
+}
+
+.fizz {
+  color: #f4a261;
+}
+
+.buzz {
+  color: #e76f51;
 }
